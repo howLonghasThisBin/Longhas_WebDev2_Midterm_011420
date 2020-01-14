@@ -5,38 +5,92 @@
     <title>Exercise #7: Wild & Wacky Vegetables</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        body{
+            margin: 10px;
+        }
+        img{
+            height: 100px;
+            width: 25%;
+        }
+    </style>
 </head>
 <body>
-<div>
-    <h1 class="font-weight-bold" >Some Favorites</h1>
-    <ul>
-        <li ><a href="#">Celery Root</a>
-        </li>
-        <li><a href="#">Spaghetti Squash</a>
-        </li>
-        <li><a href="#">Killer Mushrooms</a>
-        </li>
-    </ul>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card" style="width: 20rem;">
+                <div class="card-body">
+                    <h1 class="card-title">Some Favorites</h1>
+                    <ul class="card-text" style="list-style-type: none;">
+                        <li><a href="#">Celery Root</a>
+                        </li>
+                        <li><a href="#">Spaghetti Squash</a>
+                        </li>
+                        <li><a href="#">Killer Mushrooms</a>
+                        </li>
+                    </ul>
+                    <input type="text" class="form-control">
+                    <br>
+                    <button type="submit" class="btn btn-primary">Search Recipes</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <div class="alert alert-danger" role="alert">
+                <b>Uh oh!</b> Have you had your daily dose of veggies today??
+            </div>
+            <h1>Wild & Wacky Vegetables</h1>
+            <blockquote>
+                <p>
+                    The beet is the most intense of vegetables. The radish, admittedly, is more feverish, but the fire of the radish is a cold fire, the fire of discontent not of passion. Tomatoes are lusty enough, yet there runs through tomatoes an undercurrent of frivolity. Beets are deadly serious.
+                </p>
+                <footer>Tom Robbins</footer>
+            </blockquote>
+            <h2>Some diseases</h2>
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Veggie</th>
+                        <th>Disease</th>
+                    </tr>
+                </thead>
+                <tbody>
+                      <tr>
+                        <td>Beets</td>
+                        <td>Beeturia</td>
+                      </tr>
+                      <tr>
+                          <td>Carrots</td>
+                          <td>Carotenosis</td>
+                      </tr>
+                </tbody>
+            </table>
+
+            <img src="./img/beet-img.png" class="img-thumbnail">
+            <img src="./img/carrots-img.jfif" class="img-thumbnail">
+            <img src="./img/carrots-beets-img.jpg" class="img-thumbnail">
+
+            <h2>Really informative info</h2>
+            <p>Kale courgette salsify mustard broccoli seakale wakame potato
+                fava bean tigernut leek celery spinach avocado cabbage celtuce rutabaga
+                kohlrabi. Parsnip pea soko groundnut bitterleaf spring onion. Grape
+                dulse rutabaga lentil gram kakadu plum water spinach cabbage lotus root.
+            </p>
+            <p>
+                Mung bean quandong kale prairie turnip celery gram zucchini
+                pumpkin green bean silver beet chard endive komatsuna eggplant kakadu
+                plum radish broccoli. Arugula amaranth fennel wakame peanut garlic
+                chickweed. Sorrel jícama quandong kale chickpea water chestnut rock
+                melon aubergine lettuce pea azuki bean cress onion sea lettuce dandelion
+                nori dulse rutabaga. Coriander napa cabbage bok choy carrot kakadu plum
+                brussels sprout bamboo shoot salad okra cucumber garlic kombu beet
+                greens cauliflower summer purslane. Artichoke daikon horseradish arugula
+                taro catsear kombu rock melon pea sprouts collard greens mustard
+                courgette lettuce soko maize plantain.
+            </p>
+        </div>
+    </div>
 </div>
-
-<h1 class="font-weight-bold" >Wild & Wacky Vegetables</h1>
-<p>Kale courgette salsify mustard broccoli seakale wakame potato
-    fava bean tigernut leek celery spinach avocado cabbage celtuce rutabaga
-    kohlrabi. Parsnip pea soko groundnut bitterleaf spring onion. Grape
-    dulse rutabaga lentil gram kakadu plum water spinach cabbage lotus root.
-</p>
-<p>
-    Mung bean quandong kale prairie turnip celery gram zucchini
-    pumpkin green bean silver beet chard endive komatsuna eggplant kakadu
-    plum radish broccoli. Arugula amaranth fennel wakame peanut garlic
-    chickweed. Sorrel jícama quandong kale chickpea water chestnut rock
-    melon aubergine lettuce pea azuki bean cress onion sea lettuce dandelion
-    nori dulse rutabaga. Coriander napa cabbage bok choy carrot kakadu plum
-    brussels sprout bamboo shoot salad okra cucumber garlic kombu beet
-    greens cauliflower summer purslane. Artichoke daikon horseradish arugula
-    taro catsear kombu rock melon pea sprouts collard greens mustard
-    courgette lettuce soko maize plantain.
-</p>
-
 </body>
 </html>
